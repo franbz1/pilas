@@ -1,3 +1,5 @@
 En este wizard, la pila (stack) se usa para guardar el historial de navegación entre pasos del formulario. Cada vez que el usuario avanza, se guarda en la pila el índice del paso actual; así, si luego escribe back, el sistema hace pop() y recupera el paso anterior de forma inmediata. Esto funciona muy bien porque una pila sigue el orden LIFO, que coincide exactamente con la idea de “volver atrás” en un flujo paso a paso.La stack no guarda el formulario completo: guarda la ruta recorrida, y permite retroceder de manera simple, ordenada y predecible.
 
 https://github.com/user-attachments/assets/d2713934-bfbc-42ba-9dd9-6e8fd470d1e3
+
+repo: https://github.com/franbz1/pilas
